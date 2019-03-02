@@ -23,9 +23,9 @@ public class Connector {
         final String snsLcd = "lcd";
         final String topicErrorOut = "sensors/error/outbound/";
         final String topicErrorIn = "sensors/error/inbound";
-        final String broker = "tcp://m24.cloudmqtt.com:17643";
-        final String USER = "cvhjodxm";
-        final String PW = "noQYPCm8bCZm";
+        final String broker = "";
+        final String USER = "";
+        final String PW = "";
 
         try {
             MqttClient sampleClient = new MqttClient(broker, clientId, persistence);
